@@ -1,0 +1,48 @@
+:root{
+    color: #fff;
+}
+.choice-container{
+    display: flex;
+    margin-bottom: 0.8rem;
+    width:100%;
+    border-radius: 3px;
+    background: rgb(30, 54, 107);
+    font-size: 2rem;
+    min-width: 80rem;
+}
+.choice-container:hover{
+    cursor:pointer;
+    transform: scale(1.02);
+}
+.choice-prefix{
+    padding:2rem 2.5;
+    color: white;
+}
+.choice-text{
+    padding:2rem;
+    width:100%;
+}
+
+/*swor pasuxze*/
+.correct{
+    background:linear-gradient(32deg, rgba(green)) 
+}
+/*araswor pasuxze*/
+.incorrect{
+    background:linear-gradient(32deg, rgba(red)) 
+}
+#hud{
+    display:flex;
+    justify-content: space-between;
+}
+.hud-prefix{
+    text-align:center;
+    font-size:2rem;
+}
+.hud-main-text {
+    text-align:center;
+}
+
+.choice-container{
+    min-width:40rem;
+} 
